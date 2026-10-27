@@ -1,24 +1,53 @@
-# CodeAlpha_HangmanGame
+🎮 CodeAlpha Hangman Game
+Task 1 — CodeAlpha Python Programming Internship
+A simple, text-based Hangman game built using Python. The computer randomly selects a word, and the player tries to guess it one letter at a time before running out of attempts.
+📌 Features
 
-Task 1 of the CodeAlpha Python Programming Internship.
+Random word selection from a built-in list of 5 words.
+Maximum of 6 incorrect guesses.
+Hangman drawing updates with each incorrect guess.
+Input validation for invalid and repeated guesses.
+Displays the word's progress as you guess letters.
+Win or lose messages at the end of the game.
 
-A simple text-based Hangman game. The computer picks a word at random and you guess it one letter at a time.
+🎯 Game Rules
 
-## Rules
-- The word comes from a small built-in list of 5 words (`python`, `variable`, `function`, `keyboard`, `internet`).
-- You are allowed 6 incorrect guesses. The hangman drawing grows with each miss.
-- Enter one letter per turn. Repeated or invalid input does not cost you a chance.
-- Guess every letter before the 6th miss to win.
+The computer selects a random word from the following list: python, variable, function, keyboard, and internet.
+Enter one letter per turn to guess the hidden word.
+Each incorrect guess costs one attempt.
+Repeated guesses and invalid inputs do not cost an attempt.
+Guess all the letters before reaching 6 incorrect guesses to win.
 
-## Run it
-Requires Python 3.8 or newer. No extra packages.
+🛠️ Technologies Used
 
-```
+Language: Python
+Modules: random
+Concepts: Variables, strings, lists, loops, conditional statements, and user input validation.
+
+⚙️ Requirements
+
+Python 3.8 or newer
+No external libraries required
+
+🚀 How to Run
+1. Clone the repository
+git clone https://github.com/kingsajid7860-svg/CodeAlpha_HangmanGame.git
+
+2. Open the project directory
+cd CodeAlpha_HangmanGame
+
+3. Run the game
 python hangman.py
-```
 
-## Concepts used
-`random`, `while` loop, `if-else`, strings, lists, and basic console input/output.
+If python doesn't work on your system, try python3 hangman.py or py hangman.py, depending on your setup.
+📂 Project Structure
+CodeAlpha_HangmanGame/
+│
+├── hangman.py
+└── README.md
 
-## Author
+👨‍💻 Author
 Sajid Khan
+Python Programming Intern — CodeAlpha
+
+Built as part of the CodeAlpha Python Programming Internship.
